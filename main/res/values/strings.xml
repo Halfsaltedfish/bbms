@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">公交查询</string>
+    <string name="grennBus">绿色公交，是新晋新能源的代表车型，动力十足，无污染，体现了节能新力量。给天空留下一片晴空。</string>
+    <string name="redBus">红色公交，“飙车”一族，速度堪比赛车，心里承受能力差者不可乘坐，属于惊险刺激的乘车选择。</string>
+    <string name="blueBus">蓝色公交,是第一批动力型公交车队，司机资历老练，可保驾护航，放心乘坐。人送称号：“蓝天”。</string>
+    <string name="admin_name">管理员入口</string>
+</resources>

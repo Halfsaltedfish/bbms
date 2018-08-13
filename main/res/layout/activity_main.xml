@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="xin.developer97.xianyu.text.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@mipmap/admin"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="25dp"
+            android:layout_toLeftOf="@id/imageButton2"
+            android:layout_marginRight="50px"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/introduce"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="25dp"
+            android:background="#FFF"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/bus"
+            tools:layout_editor_absoluteX="272dp"
+            tools:layout_editor_absoluteY="25dp"
+            android:layout_toRightOf="@id/imageButton2"
+            android:background="#FFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50px" />
+    </RelativeLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+
+
+        <RadioButton
+            android:id="@+id/train_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="车次查询" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/station_select"
+            android:text="站点查询" />
+
+    </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入车次,如“1路”"
+        android:id="@+id/matter" />
+
+    <Button
+        android:id="@+id/toQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认" />
+
+
+</LinearLayout>

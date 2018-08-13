@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="站点维护"
+        android:textSize="30sp"
+        android:id="@+id/SiteManagement"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="线路维护"
+        android:textSize="30sp"
+        android:id="@+id/LineMaintenance"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="车次维护"
+        android:textSize="30sp"
+        android:id="@+id/TrainMaintenance"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="添加车次"
+        android:textSize="30sp"
+        android:id="@+id/NewTrain"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="添加站点"
+        android:textSize="30sp"
+        android:id="@+id/NewStation"/>
+
+</LinearLayout>
